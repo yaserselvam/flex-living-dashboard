@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Flex Living Reviews Dashboard
 
 A manager-facing dashboard to review, filter, and approve guest reviews for Flex Living properties, plus a public "What Guests Are Saying" page per listing.  
