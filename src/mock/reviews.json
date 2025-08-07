@@ -1,0 +1,53 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 7453,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Shane and family are wonderful! Would definitely host again :)",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2020-08-21 22:45:14",
+      "guestName": "Shane Finkelstein",
+      "listingName": "2B N1 A - 29 Shoreditch Heights",
+      "showOnWebsite": true
+    },
+    {
+      "id": 7454,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Really comfortable and well-located, but the check-in was slightly confusing.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 7 },
+        { "category": "location", "rating": 9 }
+      ],
+      "submittedAt": "2021-01-15 10:22:44",
+      "guestName": "Alex Morgan",
+      "listingName": "1A W1 - Soho Loft",
+      "showOnWebsite": false
+    },
+    {
+      "id": 7455,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Great stay overall. The host was helpful and the apartment was spotless.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 9 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2021-02-03 16:00:00",
+      "guestName": "Linda Chan",
+      "listingName": "3C SW1 - Victoria Garden Apartment",
+      "showOnWebsite": true
+    }
+  ]
+}
