@@ -132,7 +132,6 @@ We investigated the Google Places API for fetching public reviews:
 - Out of scope for this MVP due to setup complexity and billing.
 - Could be added later using server-side calls to `https://maps.googleapis.com/maps/api/place/details/json?place_id={PLACE_ID}&fields=reviews&key={API_KEY}`.
 
-
 ---
 
 ## 🎯 Stretch Goals
@@ -147,6 +146,3 @@ We investigated the Google Places API for fetching public reviews:
 
 Built as part of the Flex Living Developer Assessment.  
 Thank you for reviewing and happy coding!
-=======
-# flex-living-dashboard
->>>>>>> 786f834dc3de9a6076f4d7edd7200231a56449ba
