@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flex Living Reviews Dashboard
 
 A manager-facing dashboard to review, filter, and approve guest reviews for Flex Living properties, plus a public "What Guests Are Saying" page per listing.  
@@ -147,3 +148,6 @@ We investigated the Google Places API for fetching public reviews:
 
 Built as part of the Flex Living Developer Assessment.  
 Thank you for reviewing and happy coding!
+=======
+# flex-living-dashboard
+>>>>>>> 786f834dc3de9a6076f4d7edd7200231a56449ba
