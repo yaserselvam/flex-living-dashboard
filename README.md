@@ -3,8 +3,6 @@
 A manager-facing dashboard to review, filter, and approve guest reviews for Flex Living properties, plus a public "What Guests Are Saying" page per listing.  
 Integrates with the (sandboxed) Hostaway API, falls back to mock data, and simulates persistence on toggles. Built with Next.js 15 (App Router) and Tailwind CSS.
 
----
-
 ## 🚀 Quick Start
 
 1. **Clone & Install**  
@@ -27,8 +25,6 @@ Integrates with the (sandboxed) Hostaway API, falls back to mock data, and simul
    npm run dev
    ```
    Open http://localhost:3000 in your browser.
-
----
 
 ## 🗂️ Project Structure
 
@@ -63,8 +59,6 @@ jsconfig.json                   # Path alias config
 README.md                       # This documentation
 ```
 
----
-
 ## 🧰 Tech Stack
 
 - Next.js 15 with App Router
@@ -72,8 +66,6 @@ README.md                       # This documentation
 - Tailwind CSS for styling
 - Fetch API for server-side & client-side data
 - Mock JSON fallback & simulated PATCH endpoint
-
----
 
 ## 📐 Key Decisions
 
@@ -88,8 +80,6 @@ README.md                       # This documentation
 
 - **Responsive & Accessible**  
   Mobile-first Tailwind layouts, full-width form controls on small screens.
-
----
 
 ## 🔄 API Behavior
 
@@ -123,8 +113,6 @@ README.md                       # This documentation
   - Input: `{ "showOnWebsite": true | false }`
   - Response: `{ "success": true }` or HTTP 500 on failure.
 
----
-
 ## 📝 Google Reviews Exploration
 
 We investigated the Google Places API for fetching public reviews:
@@ -132,15 +120,11 @@ We investigated the Google Places API for fetching public reviews:
 - Out of scope for this MVP due to setup complexity and billing.
 - Could be added later using server-side calls to `https://maps.googleapis.com/maps/api/place/details/json?place_id={PLACE_ID}&fields=reviews&key={API_KEY}`.
 
----
-
 ## 🎯 Stretch Goals
 
 - Advanced Filters: Minimum rating selector, category dropdown, date-range picker
 - Visual Insights: Charts showing rating trends or category breakdowns
 - Real Persistence: Hook up to a database or headless CMS for real data saving
-
----
 
 ## 📄 License & Thanks
 
