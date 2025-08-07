@@ -118,7 +118,7 @@ README.md                       # This documentation
     }
     ```
 
-- **PATCH /api/reviews/:id**  
+- **PATCH /api/reviews/[id]**  
   - Purpose: Simulate persisting the showOnWebsite flag.
   - Input: `{ "showOnWebsite": true | false }`
   - Response: `{ "success": true }` or HTTP 500 on failure.
